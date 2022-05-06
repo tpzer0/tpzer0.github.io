@@ -1,0 +1,51 @@
+body, html {
+
+    height: 80%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%; 
+    background-color: #D4D4D4;   
+    
+}
+
+main {
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(220, 223, 245);
+}
+
+#siteContent {
+    text-align: center;
+    padding: 15%;
+    background-color: rgb(80, 79, 82);
+    
+   
+}
+
+#inputs {
+    background-color: beige;
+    padding: 5%;
+}
+
+#outer {
+    padding: 10%;
+}
+
+
+#showResultBox {
+    background-color: antiquewhite;
+    padding: 15%;
+}   
+
+#footerContent {
+
+    margin-top: 28%;
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 100% ;
+   
+    padding: 8px;
+}
