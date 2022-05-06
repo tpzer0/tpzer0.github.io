@@ -9,11 +9,6 @@ const convertToDecimal =  function (input, err) {
 
         if (!(/[^01]/.test(input)) && input != ""){
 
-            if (input.length >= 8) { 
-                document.getElementById('result')
-            .innerHTML = "Please, insert a binary number!";
-        } else{
-                
                 console.log("teste"+ input);
                 let result = parseInt(input, 2);
 
@@ -22,7 +17,7 @@ const convertToDecimal =  function (input, err) {
 
                 document.getElementById('result')
                 .style.color = 'black';
-        }
+        
 
     }   else { 
             document.getElementById('binaryInput').value = "";
